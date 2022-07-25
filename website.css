@@ -1,0 +1,194 @@
+body {
+    background: url(img/abd2.png);
+    margin: 0px;
+    padding: 0px;
+    background-repeat: no-repeat;
+}
+
+*{
+    box-sizing: border-box;
+    font-style: normal;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 300;
+}
+#cmpny{
+    margin-left: 10px;
+    margin-top: 0px;
+    font-size: 15px;
+    display: inline;
+    position: absolute;
+    top:18px;
+}
+a{
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    padding: 25px;
+}
+#youtube{
+    height: 50px;
+    width: 50px;
+    margin-left: 20px;
+    filter: invert(40%);
+    clip-path: circle();
+    cursor: pointer;   
+}
+#twitter{
+    height: 50px;
+    width: 50px;
+    margin-left: 20px;
+    filter: invert(40%);
+    clip-path: circle();
+    cursor: pointer;
+}
+#fb{
+    height: 50px;
+    width: 50px;
+    margin-left: 20px;
+    filter: invert(33%);
+    clip-path: circle();
+    cursor: pointer;
+}
+#insta{
+    height: 50px;
+    width: 50px;
+    margin-left: 10px;
+    filter: invert(40%);
+    clip-path: circle();
+    cursor: pointer;
+}
+.left img{
+    margin-left: 30px;
+    margin-top: 10px;
+    height:35px;
+    width:35px;
+    filter: invert(34%);
+}
+.navbar li a.active{
+    text-decoration: underline;
+}
+.navbar li{
+    display: inline-block;
+    padding: 0px;
+}
+.follow{
+    display: inline-block;
+    margin-bottom: 50px;
+    margin-left: 400px;
+    font-size: 1px;
+}
+.right{
+    position: absolute;
+    top:0px;
+    right: 15px;
+    padding-right: 10px;
+}
+.det{
+    margin-top: 550px;
+    margin-left: 150px;
+}
+a:hover{
+    color:white;
+    text-decoration: underline;
+}
+.container{
+    border: 3px solid black;
+    width:600px;
+    height: 450px;
+    border-radius: 50px;
+    float: right;
+    position: absolute;
+    top:150px;
+    right:100px
+}
+#name{
+    color: grey;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border: 3px solid black;
+    border-radius: 30px;
+    margin:50px auto;
+    margin-bottom: 0px;
+    width:400px;
+    font-size: 20px;
+}
+#class{
+    text-align: center;
+    color:gray ;
+}
+#age{
+    color: grey;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border: 3px solid black;
+    border-radius: 30px;
+    margin: 3px auto;
+    width:400px;
+    font-size: 20px;
+}
+#class{
+    color: grey;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border: 3px solid black;
+    border-radius: 30px;
+    margin:3px auto;
+    width:400px;
+    text-align: center;
+    font-size: 20px;
+}
+#phone{
+    color: gray;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border: 3px solid black;
+    border-radius: 30px;
+    margin:3px auto;
+    width:400px;
+    text-align: center;
+    font-size: 20px;
+}
+#mailid{
+    color: gray;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border: 3px solid black;
+    border-radius: 30px;
+    margin:3px auto;
+    width:400px;
+    text-align: center;
+    font-size: 20px;
+}
+h2{
+    padding-left: 125px;
+    font-size: 40px;
+    width: 600px;
+    
+}
+input{
+    background-color: black;
+    text-align: center;
+}
+#class{
+    background-color: black;
+    display: block;
+}
+#btn{
+    background-color:black;
+    color: grey;
+    cursor: pointer;
+    width:400px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border: 3px solid black;
+    border-radius: 30px;
+    display: block;
+    font-size: 20px;
+    margin-top: 3px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3px;
+}
+input{
+    display: block;
+}
